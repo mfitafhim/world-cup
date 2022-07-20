@@ -200,42 +200,28 @@ header{
 }
 .match{
     box-shadow: 0 0 10px 0 gray;
+    height: 220px;
     border-radius: 15px;
+    padding: 30px 20px;
+    text-align: center;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
 }
-.match img{
-    width: 100%;
+.flags{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
 }
-.match-info{
-    padding: 20px;
-}
-.match a{
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-    padding: 10px 20px;
-    border: 1px solid black;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+.match h2{
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 .match p{
-    font-size: 17px;
-    font-weight: 600;
-    width: 270px;
-    padding: 10px 0;
-}
-.match-desc{
-    display: flex;
-    color: #444242;
-}
-.watch-duration{
-    padding-right: 20px;
+    font-size: 16px;
+    color: #4D4D4D;
 }
 .main-btn{
     text-align: center;
